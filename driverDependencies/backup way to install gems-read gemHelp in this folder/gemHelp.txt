@@ -1,0 +1,8 @@
+
+go to this folder:
+C:\Ruby23-x64\lib\ruby\gems\2.3.0
+
+create a folder with name "cache"
+save all these gems there
+cmd to this folder
+and run gem install --force --local *.gem

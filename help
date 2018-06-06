@@ -1,0 +1,42 @@
+theBrowser.div(:class=>"slds-panel__section",:index=>5)<:index=>5).attribute_value("data-aura-rendered-by")
+
+ 
+
+theBrowser.elements(:class=>"slds-panel__section").size
+
+ 
+
+theBrowser.button(:text=>"Go to Outlet Defaults").click
+
+ 
+
+theBrowser.elements(:tag_name=>"input").size
+
+ 
+
+sibling: go to parents and then back to the desired child
+
+inputCheckbox.parent.span(:class=>"slds-form-element__static").text
+
+ 
+
+select venue div tag and  class= slds-panel__section same for select wallsheets
+
+  
+
+  divs = theBrowser.elements(:class=>"slds-panel__section")
+
+    divs.each do |div1|
+
+     puts div1.text
+
+    end
+
+ 
+++++++++++++
+xx=theBrowser.div(:id=>"orderShipmentsGrid")
+he=xx.elements(:class=>"x-grid3-row-checker")
+is same as
+
+xx=theBrowser.div(:id=>"orderShipmentsGrid").elements(:class=>"x-grid3-row-checker")
+ ++++++++++++++++++

@@ -1,0 +1,7 @@
+# config/cucumber.yml
+##YAML Template
+---
+<% time_stamp = Time.now.strftime("%d%m%Y_%H%M%S") %>
+<% results_dir = "results/#{time_stamp}" %>
+<% Dir::mkdir(results_dir) if not File.directory?(results_dir) %>
+

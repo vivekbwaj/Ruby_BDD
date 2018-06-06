@@ -1,0 +1,167 @@
+---
+
+# space between name: value is necessary
+
+Portal:
+  Username: {Selector: "{:class=>'txtinput', :name=>'j_username'}", Type: text_field}
+  Password: {Selector: "{:class=>'txtinput', :name=>'j_password'}", Type: text_field}
+  Login: {Selector: "{:class=>'submitButton'}", Type: button}
+  Logout: {Selector: "{:text=>'Logout'}", Type: link}  
+  GMProducts: {Selector: "{:id=>'style2Num'}", Type: link}
+  APPProducts: {Selector: "{:id=>'style1Num'}", Type: link}
+  PO: {Selector: "{:id=>'order1Num'}", Type: link} 
+  AdvSearch: {Selector: "{:id=>'btn_searchAdv'}", Type: button} 
+  Search: {Selector: "{:id=>'btn_search'}", Type: button}
+  Results: {Selector: "{:class=>'x-grid3-cell-inner x-grid3-col-styleNo', :index=>0}", Type: div}
+  ProdRegnStatus: {Selector: "{:class=>'x-grid3-cell-inner x-grid3-col-productRegStatusName', :index=>0}", Type: div}    
+  PORegnStatus: {Selector: "{:class=>'x-grid3-cell-inner x-grid3-col-orderRegStatusName', :index=>0}", Type: div}  
+  ShipmentNum: {Selector: "{:class=>'x-grid3-cell-inner x-grid3-col-shipNo', :index=>0}", Type: div} 
+  AdvStyleNo: {Selector: "{:text=>'v_styleNo'}", Type: text_field}    
+  ProgressBarText: {Selector: "{:text=>'x-progress-text'}", Type: div}
+  ProgressBarHidden: {Selector: "{:class=>'x-progress-text  x-hidden'}", Type: div}
+  Savingstarted: {Selector: "{:text=>'Getting server response...'}", Type: div}
+  Saved: {Selector: "{:text=>'Done'}", Type: div}
+  PleaseConfirmWindow: {Selector: "{:class=>'x-window-bwrap'}", Type: div}
+  YesButton: {Selector: "{:text=>'Yes'}", Type: button}   
+  New: {Selector: "{:id=>'btn_new'}", Type: link}    
+  Copy: {Selector: "{:id=>'btn_copy'}", Type: a}    
+  Save: {Selector: "{:id=>'btn_save'}", Type: a}  
+  requestforSample: {Selector: "{:id=>'btn_requestForSample'}", Type: a}  
+  NewCommitment: {Selector: "{:id=>'btn_genOrder'}", Type: a}  
+  Register: {Selector: "{:id=>'btn_register'}", Type: a}   
+  ModifiedTimestamp: {Selector: "{:id=>'updateDate'}", Type: td}  
+  RefNo: {Selector: "{:id=>'display_refNo$0'}", Type: div}     
+  RegStatus: {Selector: "{:class=>'header_value'}", Type: span} 
+  SourcingTab: {Selector: "{:text=>'Sourcing'}", Type: span}   
+  HomeTab: {Selector: "{:text=>'Home'}", Type: span}     
+  QM: {Selector: "{:id=>'qaApprequestHistory1Num'}", Type: link}
+  #RequestItem:{Selector: "{:id=>'btn_request...'}", Type: a}  
+
+
+Header:
+  HeaderTab: {Selector: "{:text=>'Header'}", Type: span}    
+  HeaderPage: {Selector: "{:text=>'Product Brief'}", Type: div}   
+  StyleNo: {Selector: "{:id=>'styleNo$0'}", Type: text_field}
+  RefNo: {Selector: "{:id=>'display_refNo$0'}", Type: div}
+  Description: {Selector: "{:id=>'description$0'}", Type: text_field}
+  EstFOB: {Selector: "{:id=>'estFob$0'}", Type: text_field}
+  EstELC: {Selector: "{:id=>'estElc$0'}", Type: text_field}
+  EstSellPrice: {Selector: "{:id=>'estPrice$0'}", Type: text_field}
+  InitialOrder: {Selector: "{:id=>'estOrderQty$0'}", Type: text_field}
+  MonthlyOrder: {Selector: "{:id=>'estMonthlyQty$0'}", Type: text_field}  
+  Department: {Selector: "{:id=>'deptId$0'}", Type: input}
+  vendorName: {Selector: "{:id=>'vendorNamePopupBtn'}", Type: input}
+  factoryName: {Selector: "{:id=>'vendorQuotesPopupBtn'}", Type: input}  
+  factoryFirstResult: {Selector: "{:class=>'x-grid3-cell-inner x-grid3-col-factoryName', :index=>0}", Type: div}  
+  vendorSAPNum: {Selector: "{:id=>'psffse1_sapVendorNo'}", Type: text_field}
+  vendorSearch: {Selector: "{:text=>'a better way to click this is click group name text field first and then keyboard tab enter'}", Type: button}
+  vendorFirstResult: {Selector: "{:class=>'x-grid3-cell-inner x-grid3-col-sapVendorNo', :index=>0}", Type: div}
+  Range: {Selector: "{:id=>'rangePopupBtn'}", Type: input}
+  RangeSearch: {Selector: "{:text=>'a better way to click this is click group name text field first and then keyboard tab enter'}", Type: button}
+  RangeFirstResult: {Selector: "{:class=>'x-grid3-cell-inner x-grid3-col-name', :index=>0}", Type: div}
+  SourcingAgent: {Selector: "{:id=>'sourcingAgentId$0'}", Type: input}
+  Track: {Selector: "{:id=>'fastTrackId$0'}", Type: input}
+  AgentOffice: {Selector: "{:id=>'merchantOfficeId$0'}", Type: input}
+  TechDesigner: {Selector: "{:id=>'designerUserCode$0'}", Type: input}
+  DesignStylist: {Selector: "{:id=>'stylistUserCode$0'}", Type: input}
+  Buyer: {Selector: "{:id=>'buyerUserCode$0'}", Type: input}
+  MerchAssistant: {Selector: "{:id=>'assistantUserCode$0'}", Type: input}
+  Planner: {Selector: "{:id=>'plannerUserCode$0'}", Type: input}
+  Merchandiser: {Selector: "{:id=>'merchant1UserCode$0'}", Type: input}
+  ProdMerchandiser: {Selector: "{:id=>'prodMerchantUserCode$0'}", Type: input}
+  QATester1: {Selector: "{:id=>'qaUserCode$0'}", Type: input}
+
+Specification:
+  SpecificationTab: {Selector: "{:text=>'Specification'}", Type: span}    
+  ItemDesc: {Selector: "{:id=>'custItemDesc$0'}", Type: text_field}
+
+Costing:
+  CostingTab: {Selector: "{:text=>'Costing'}", Type: span} 
+  Currency: {Selector: "{:id=>'currencyId$0'}", Type: text_field} 
+  VendorUnitCost: {Selector: "{:id=>'unitCost$0'}", Type: text_field}
+  LCLVendorUnitCost: {Selector: "{:id=>'lclUnitCost$0'}", Type: text_field}
+  FCLVendorUnitCost: {Selector: "{:id=>'fclUnitCost$0'}", Type: text_field}
+  ProdLeadTime: {Selector: "{:id=>'prodLeadTime$0'}", Type: text_field}
+  ReOrderDays: {Selector: "{:id=>'reOrderLeadDays$0'}", Type: text_field}
+  Rebate: {Selector: "{:id=>'vendorRebate$0'}", Type: text_field}
+  PackageType: {Selector: "{:id=>'packageTypeId$0'}", Type: text_field}
+  FCLLCL: {Selector: "{:id=>'lclFclId$0'}", Type: text_field}
+  FactoryPacked: {Selector: "{:id=>'factoryPacked$0'}", Type: text_field}
+  SupplyChainEvent: {Selector: "{:id=>'supplyChainEventId$0'}", Type: text_field}
+  PortOfLoading: {Selector: "{:id=>'portOfLoadingId$0'}", Type: text_field}  
+  CountryOfOrigin: {Selector: "{:id=>'countryOfOriginId$0'}", Type: text_field}    
+  OuterHeight: {Selector: "{:id=>'oheight$0'}", Type: text_field}
+  OuterWidth: {Selector: "{:id=>'owidth$0'}", Type: text_field}
+  OuterLength: {Selector: "{:id=>'olength$0'}", Type: text_field}
+  OuterWeight: {Selector: "{:id=>'grossWeight$0'}", Type: text_field}
+  InstoreWidth: {Selector: "{:id=>'iwidth$0'}", Type: text_field}
+  InstoreLength: {Selector: "{:id=>'ilength$0'}", Type: text_field}
+  InstoreWeight: {Selector: "{:id=>'prodWeight$1'}", Type: text_field}
+  InstoreHeight: {Selector: "{:id=>'iheight$0'}", Type: text_field}
+  InnerWidth: {Selector: "{:id=>'innerCartonWidth$0'}", Type: text_field}
+  InnerLength: {Selector: "{:id=>'innerCartonLength$0'}", Type: text_field}
+  InnerWeight: {Selector: "{:id=>'innerCartonWeight$0'}", Type: text_field}
+  InnerHeight: {Selector: "{:id=>'innerCartonHeight$0'}", Type: text_field}
+  UnitsPerOuter: {Selector: "{:id=>'unitsPerOuter$0'}", Type: text_field}
+  InnersPerOuter: {Selector: "{:id=>'innersPerOuter$0'}", Type: text_field}
+  UnitsPerInner: {Selector: "{:id=>'unitsPerInner$0'}", Type: text_field}
+
+Measurement:
+  MeasurementTab: {Selector: "{:text=>'Measurement'}", Type: span}  
+
+ColorSize:
+  ColorSizeTab: {Selector: "{:text=>'Colour / Size'}", Type: span}  
+  AutoAssignAPN: {Selector: "{:id=>'sc_autoAssignApn$0'}", Type: input}
+  ContractColor: {Selector: "{:class=>'x-grid3-cell-inner x-grid3-col-contractColourId'}", Type: div}  
+  SellColour: {Selector: "{:class=>'x-grid3-cell-inner x-grid3-col-sellColor'}", Type: div}
+  Template: {Selector: "{:id=>'addSizesPopupBtn'}", Type: input}
+  SizeTemplateOptions: {Selector: "{:class=>'x-grid3-cell-inner x-grid3-col-value1'}", Type: div}
+
+Keycode:
+  KeyCodeTab: {Selector: "{:text=>'Keycode'}", Type: span}  
+  ProdName: {Selector: "{:id=>'productName$0'}", Type: text_field}
+  ArthurSDesc: {Selector: "{:id=>'arthurDesc$0'}", Type: text_field}  
+  WebProdName: {Selector: "{:id=>'webName$0'}", Type: text_field}
+  ProdFeatures: {Selector: "{:id=>'productFeatures$0'}", Type: text_field}   
+  POSDesc: {Selector: "{:id=>'posDesc$0'}", Type: text_field}
+  Barcode: {Selector: "{:id=>'colorBarcodeTicketId$0'}", Type: text_field}
+  SPLLine1: {Selector: "{:id=>'colorSplLine1$0'}", Type: text_field} 
+  MinPresDepth: {Selector: "{:id=>'minPresDepth$0'}", Type: text_field}       
+  AddAssortment: {Selector: "{:text=>'Add...'}", Type: button}  
+  AssortmentFirstResult: {Selector: "{:class=>'x-grid3-cell-inner x-grid3-col-code', :index=>0}", Type: div} 
+  Applydefault: {Selector: "{:id=>'btn_applyToAllColors'}", Type: button}    
+  KeycodeColor: {Selector: "{:id=>'colourKeycodeId$0'}", Type: input}  
+
+POrder:
+  Shipments: {Selector: "{:text=>'Shipments'}", Type: span}  
+  QLDpercentage: {Selector: "{:id=>'qld_percentage_color$0'}", Type: input}  
+  QLDpercentageSize: {Selector: "{:id=>'qld_percentage_size$0'}", Type: input}   
+  QLDcode: {Selector: "{:id=>'qldDcNoId$0'}", Type: input}
+  NSWpercentage: {Selector: "{:id=>'nsw_percentage_color$0'}", Type: input} 
+  NSWpercentageSize: {Selector: "{:id=>'nsw_percentage_size$0'}", Type: input}    
+  NSWcode: {Selector: "{:id=>'nswDcNoId$0'}", Type: input} 
+  WApercentage: {Selector: "{:id=>'wa_percentage_color$0'}", Type: input}  
+  WApercentageSize: {Selector: "{:id=>'wa_percentage_size$0'}", Type: input}   
+  WAcode: {Selector: "{:id=>'waDcNoId$0'}", Type: input} 
+  VICpercentage: {Selector: "{:id=>'vic_percentage_color$0'}", Type: input} 
+  VICpercentageSize: {Selector: "{:id=>'vic_percentage_size$0'}", Type: input}    
+  VICcode: {Selector: "{:id=>'vicDcNoId$0'}", Type: input}  
+  Nationalpercentage: {Selector: "{:id=>'national_percentage_color$0'}", Type: input}   
+  NationalpercentageSize: {Selector: "{:id=>'national_percentage_size$0'}", Type: input}       
+  Nationalcode: {Selector: "{:id=>'nationalDcNoId$0'}", Type: input}             
+  ShipmentSave: {Selector: "{:id=>'btn-saveDCforOrderShipment'}", Type: link} 
+  ShipWinClose: {Selector: "{:id=>'btn-closeDCforOrderShipment'}", Type: link} 
+  TransmissionHistory: {Selector: "{:text=>'Transmission History'}", Type: span}      
+  ODRAck: {Selector: "{:class=>'x-grid3-cell-inner x-grid3-col-information', :index=>0}", Type: div}     
+
+QualityManagement:
+  SelectType: {Selector: "{:id=>'btn_request'}", Type: button}  
+  #RequestSample: {Selector: "{:class=>'x-grid3-cell-inner x-grid3-col-code', :index=>0}", Type: div} 
+  #RFSD: {Selector: "{text=>'Development Sample'}", Type: input}
+  request: {Selector: "{:id=>'Core.grid.itemAction(this, 'requestItem', 'Core.customize.request')'}", Type: button}  
+ # request: {Selector:"{:class=>'x-btn-text'}", Type: button}
+  Email: {Selector: "{:id=>'selectedEmail'}", Type: input}
+  ColourInRfsd: {Selector: "{id=>'sellColor_ccg_core_select_'}", Type: text_field}
+  QMGM: {Selector: "{:text=>'QM(GM)'}", Type: span}  
+  QMAssessments: {Selector: "{:class=>'x-form-field-wrap  x-trigger-wrap-focus'}", Type: text_field}
+ # SamDocSubmission: {Selector: "{:class=>'x-grid3-cell-inner x-grid3-col-submitQty'}", Type: text_field}}
